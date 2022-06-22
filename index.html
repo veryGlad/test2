@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My first web page</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
-    <title>Test</title>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <script src="./js/bootstrap.min.js"></script>
 </head>
 <body>
-
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="#">Landy</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skreenshots</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Download</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="carousel slide">
+        <div class="carousel-inner">
+            <div class="active item">
+                <img src="img/main_logo.jpg" alt="Main banner 1" />
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Free Download</h1>
+                        <p class="lead">loremipsum</p>
+                        <a class="btn btn-large btn-info pull-right">Download now</a>
+                    </div>
+                </div>
+            </div >
+            <div class="item">
+                <img src="img/main_logo_2.jpg" alt="Main banner 2" />
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Free Download</h1>
+                        <p class="lead">loremipsum</p>
+                        <a class="btn btn-large btn-info pull-right">Download now</a>
+                    </div>
+                </div></div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
